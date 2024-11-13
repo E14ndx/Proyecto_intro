@@ -15,7 +15,7 @@ body {
     height: 100vh;
     padding: 100px;
     background-color: #0d001f;
-    background-image: url("{% static 'db/img/Rotating_earth_animated_transparent.gif' %}");
+    background-image: url("{% static 'db\img\Rotating_earth_animated_transparent (1).gif' %}");
     background-size: 1550px;
     overflow: hidden;
 }
