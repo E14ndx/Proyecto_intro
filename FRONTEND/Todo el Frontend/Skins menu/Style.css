@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6200ea;
+    color: white;
+    padding: 1em 0;
+}
+
+
+
+.mascota-container img {
+    width: 200px;
+    height: auto;
+    margin: 1em auto;
+}
+.skins-container, .acciones {
+    margin: 2em auto;
+    padding: 1em;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 400px;
+}
+
+.skin-option {
+    margin: 1em 0;
+}
+
+.skin-option.locked .skin-btn {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
+
+.lock-icon {
+    margin-left: 0.5em;
+    color: #ff0000;
+}
