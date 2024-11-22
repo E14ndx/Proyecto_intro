@@ -55,7 +55,10 @@ ROOT_URLCONF = 'Proyecto_intro.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / 'FRONTEND/allfrontend'],
+        'STATICFILES_DIRS':[
+            BASE_DIR / 'FRONTEND/allfrontend',  # Ajusta según tu estructura de directorios
+            ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

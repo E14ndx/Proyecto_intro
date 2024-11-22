@@ -68,7 +68,8 @@
 <body>
     <div class="trivia-container">
         <!-- Personaje en formato GIF -->
-        <img src="background/Terry Nice.gif" alt="Personaje" class="character-gif">
+        <{% load static %}
+            <img src="{% static 'background/Terry Nice.gif' %}" alt="Fondo" class="character-gif">
         
         <!-- Pregunta de la trivia -->
         <div class="question">{{ question_text }}</div>
